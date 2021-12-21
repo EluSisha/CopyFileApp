@@ -23,6 +23,9 @@ public class Main {
 
     }
 
+    public static void newFuncOfProgram(){
+        //TODO
+    }
     private static boolean validityOfFile(String pathToExsiststingFileAndNewNameOfFile) {
         String[] array = pathToExsiststingFileAndNewNameOfFile.split("\\s+"); // собственно смотрим, чтобы в строке был минимум 1 пробел, и защищаемся от тролей
 
